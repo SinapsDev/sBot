@@ -22,6 +22,10 @@ client.on('message', msg => {
 
   if ( command === 'clear' ){
       client.commands.get('clear').execute(msg, args)
+  } else if( command === 'kick' ){
+    client.commands.get('kick').execute(msg, args, client)
+  } else if( command === 'ban' ){
+    client.commands.get('ban').execute(msg, args, client)
   }
 });
 
