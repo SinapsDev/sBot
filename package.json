@@ -1,0 +1,22 @@
+{
+  "name": "sbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SinapsDev/sBot.git"
+  },
+  "author": "Sinaps",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SinapsDev/sBot/issues"
+  },
+  "homepage": "https://github.com/SinapsDev/sBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
