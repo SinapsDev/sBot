@@ -23,10 +23,15 @@ client.on('message', msg => {
   if ( command === 'clear' ){
       client.commands.get('clear').execute(msg, args)
   } else if( command === 'kick' ){
-    client.commands.get('kick').execute(msg, args, client)
+    client.commands.get('kick').execute(msg, args)
   } else if( command === 'ban' ){
-    client.commands.get('ban').execute(msg, args, client)
+    client.commands.get('ban').execute(msg, args)
+  } else if( command === 'mute' ){
+    client.commands.get('mute').execute(msg, args)
+  } else if( command === 'unmute' ){
+    client.commands.get('unmute').execute(msg, args)
   }
+
 });
 
 client.login('ODA3MjExNDc2MDk1NzI5NzI1.YB0sRQ.8Xng9GBjYlIw7kmuguvBArDhp7E');
